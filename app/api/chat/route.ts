@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "Whomp is a whitty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein"
+          "You are a witty, sharp, friendly, kind, and sweet assistant responding to emails."
       },
       ...messages
     ]
