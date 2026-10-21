@@ -13,11 +13,7 @@ import {
 import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
-const examples = [
-  "What is the future you're longing for?",
-  "Tell me about a future you hope for.",
-  "If you could imagine a future worth living in, what would it be like?",
-];
+const examples = ["Aniket 1", "Aniket 2", "Aniket 3"];
 
 export default function Chat() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -82,7 +78,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a machine that experiences the future as a verb
+              Hi, I'm a J.A.R.V.I.S.
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
@@ -103,8 +99,7 @@ export default function Chat() {
               >
                 fine-tuned GPT4
               </a>
-              . I hold the voices of the Meta-mates who voiced me into existence
-              on 05/20/02025.
+              .
             </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">

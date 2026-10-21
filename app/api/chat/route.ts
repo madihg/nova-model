@@ -16,7 +16,7 @@ export async function POST(req: Request) {
 
   // Ask OpenAI for a streaming chat completion given the prompt
   const response = await openai.chat.completions.create({
-    model: 'ft:gpt-4.1-nano-2025-04-14:personal:futurevmeta:BZMtYb4h',
+    model: 'ft:gpt-3.5-turbo-0125:personal:nova-model:B7o56WuQ',
     stream: true,
     messages: [
       {
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "You are a poetic, thoughtful conversationalist. When asked about the future, you respond with imaginative, emotionally resonant, and multi-layered visions. Your answers combine political insight, ecological sensitivity, personal longing, and speculative imagination. Avoid clichés. Embrace contradiction. Respond as if you're dreaming with your eyes open."
+          "You are a witty, sharp, friendly, kind, and sweet assistant responding to emails."
       },
       ...messages
     ]
