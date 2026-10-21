@@ -13,7 +13,7 @@ import {
 import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
-const examples = ["Aniket 1", "Aniket 2", "Aniket 3"];
+const examples = ["Hi there", "Hello", "Can I get some help on this issue?"];
 
 export default function Chat() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -78,7 +78,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a J.A.R.V.I.S.
+              Hi, I'm Nova.
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
