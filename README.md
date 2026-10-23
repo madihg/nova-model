@@ -1,3 +1,5 @@
+> **nova-model**: Nova, a fine-tuned GPT-3.5 chat demo from Halim Madi's course. Source recreated on 2026-10-21 after the original repo was deleted; see Context.md.
+
 <a href="www.halimmadi.com">
   <h1 align="center">AI Interface Example</h1>
 </a>
